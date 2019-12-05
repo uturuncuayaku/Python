@@ -1,0 +1,24 @@
+Authentication
+
+To make use of our APIs we require you to use an API Key. To use the API key you need to pass it along as a header with your requests.
+
+Manage or Create API Keys
+Get Fornite BR Player Stats
+
+GET https://api.fortnitetracker.com/v1/profile/{pc}/{B1nary001}
+
+Platforms: pc, xbl, psn
+Get Fornite Match History
+
+GET https://api.fortnitetracker.com/v1/profile/account/{accountId}/matches
+
+Account ID: A Guid, found in the Get BR Player Stats Endpoint.
+Get Current Fortnite Store
+
+GET https://api.fortnitetracker.com/v1/store
+Get Current Active Challenges
+
+GET https://api.fortnitetracker.com/v1/challenges
+Documentation
+
+Hit those endpoints, it's self documenting. :)
