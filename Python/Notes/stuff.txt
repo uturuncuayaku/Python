@@ -1,0 +1,6 @@
+if ("x^n" + ":" + "y^n") and seperated by comma
+
+'^"' -starts with "
+"[a-z]*"
+'"' -ends with "
+""
